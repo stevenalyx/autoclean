@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center py-5">
+  <h1 class="display-6">Acceso denegado</h1>
+  <p class="text-muted">Tu rol no tiene permiso para realizar esta acción.</p>
+  <a class="btn btn-primary" href="{% url 'lavado:vehiculo_list' %}">Volver al inicio</a>
+</div>
+{% endblock %}

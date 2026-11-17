@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}{{ titulo }} · AUTOCLEAN{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-6">
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <h1 class="h4">{{ titulo }}</h1>
+        {% if subtitulo %}<p class="text-muted">{{ subtitulo }}</p>{% endif %}
+        <form method="post" novalidate>
+          {% csrf_token %}
+          {% include 'servicios/campo_form.html' %}
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="{% url cancel_url %}" class="btn btn-outline-secondary">Cancelar</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
