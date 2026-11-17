@@ -1,6 +1,6 @@
 # AutoClean
 
-Sistema web para gestionar los servicios de lavado de un negocio de autos: llevar el registro de los vehículos, los servicios que se les hacen y en qué estado va cada uno. Lo hice con Django, MySQL y Bootstrap como proyecto de la carrera de Ingeniería en Informática y Ciberseguridad en INACAP Curicó.
+Sistema web para gestionar los servicios de lavado de un negocio de autos: llevar el registro de los vehículos, los servicios que se les hacen y en qué estado va cada uno. Lo hice con Django, MySQL y Bootstrap como proyecto de la carrera de Ingeniería en Informática y Ciberseguridad
 
 <!-- Cuando tengas capturas, guárdalas en una carpeta docs/ y agrégalas aquí:
 ![Lista de vehículos](docs/vehiculos.png)
